@@ -26,8 +26,10 @@
 
 ### Database Migrations
 - Migration:
+```sh
   cd OFG.CqrsSample.API
   dotnet ef migrations add MIGRATIN_NAME -o Migrations -p ..\OFG.CqrsSample.Infrastructure -c ApplicationDbContext
+```
 - When you run OFG.CqrsSample.API, DB will be automatically updated.
 
 ### Support
