@@ -4,7 +4,8 @@
 - Clean Architecture
 - CQRS
 - MediatR
-- Spesification Pattern
+- Spesification
+- Generic Repository
 
 ### Features
 
