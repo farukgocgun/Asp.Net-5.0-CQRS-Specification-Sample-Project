@@ -15,6 +15,7 @@
 - [Auto Mapper](https://automapper.org/ "Auto Mapper")
 - [Fluent Validation](https://fluentvalidation.net/ "Fluent Validation")
 - [MediatR](https://github.com/jbogard/MediatR/ "MediatR")
+- [Swagger Open API implementation] (https://swagger.io/)
 
 ## Getting Started
 ### Pre-requisites
