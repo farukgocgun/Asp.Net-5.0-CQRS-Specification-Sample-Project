@@ -3,6 +3,7 @@
 
 - Clean Architecture
 - CQRS
+- Event Sourcing
 - MediatR
 - Spesification
 - Generic Repository
@@ -13,6 +14,7 @@
 - [Entitity Framework 6.0](https://docs.efproject.net/en/latest/ "Entitity Framework 6.0")
 - [Auto Mapper](https://automapper.org/ "Auto Mapper")
 - [Fluent Validation](https://fluentvalidation.net/ "Fluent Validation")
+- [MediatR](https://github.com/jbogard/MediatR/ "MediatR")
 
 ## Getting Started
 ### Pre-requisites
