@@ -14,6 +14,7 @@ namespace OFG.CqrsSample.Infrastructure.Abstractions
         Task<T> AddAsync(T entity);
         void Update(T entity);
         void Delete(T entity);
+        void DeleteRange(ICollection<T> entities);
         Task<bool> AnyAsync();
         Task<bool> AnyAsync(ISpecification<T> spec);
         Task<int> SaveChangesAsync();

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace OFG.CqrsSample.Application.Features.ToDo.Commands.UpdateToDo
+namespace OFG.CqrsSample.Application.Features.ToDoComment.Commands.UpdateToDoComment
 {
     public class UpdateToDoCommentCommandValidator : AbstractValidator<UpdateToDoCommentCommand>
     {

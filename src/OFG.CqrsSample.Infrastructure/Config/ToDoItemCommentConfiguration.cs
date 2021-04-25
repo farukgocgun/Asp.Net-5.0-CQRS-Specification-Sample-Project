@@ -4,9 +4,9 @@ using OFG.CqrsSample.Domain.Entities;
 
 namespace OFG.CqrsSample.Infrastructure.Config
 {
-    public class ToDoItemCommentConfiguration : IEntityTypeConfiguration<TodoComment>
+    public class ToDoItemCommentConfiguration : IEntityTypeConfiguration<ToDoComment>
     {
-        public void Configure(EntityTypeBuilder<TodoComment> builder)
+        public void Configure(EntityTypeBuilder<ToDoComment> builder)
         {
             builder.HasQueryFilter(p => p.DeletedDateTime == null);
         }

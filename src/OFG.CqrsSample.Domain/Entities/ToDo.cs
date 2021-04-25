@@ -12,7 +12,7 @@ namespace OFG.CqrsSample.Domain.Entities
         public string Description { get; set; }
         [Required]
         public bool IsCompleted { get; set; } = false;
-        public ICollection<TodoComment> Comments { get; set; }
+        public ICollection<ToDoComment> Comments { get; set; }
 
     }
 }

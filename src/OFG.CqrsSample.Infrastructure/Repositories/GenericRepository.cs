@@ -26,6 +26,10 @@ namespace OFG.CqrsSample.Infrastructure.Repositories
         {
             _context.Set<T>().Remove(entity);
         }
+        public void DeleteRange(ICollection<T> entities)
+        {
+            _context.Set<T>().RemoveRange(entities);
+        }
         public void Update(T entity)
         {
             _context.Set<T>().Attach(entity);

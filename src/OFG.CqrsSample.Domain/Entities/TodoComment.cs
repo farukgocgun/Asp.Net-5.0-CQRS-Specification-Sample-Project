@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace OFG.CqrsSample.Domain.Entities
 {
-    public class TodoComment : BaseEntity
+    public class ToDoComment : BaseEntity
     {
         [Required]
         public int TodoId { get; set; }

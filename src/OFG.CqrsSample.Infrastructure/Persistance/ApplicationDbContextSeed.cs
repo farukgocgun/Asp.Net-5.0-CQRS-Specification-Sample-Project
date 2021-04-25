@@ -17,8 +17,8 @@ namespace OFG.CqrsSample.Infrastructure.Persistance
             {
                 if (!context.ToDoItems.Any())
                 {
-                    List<TodoComment> comments = new List<TodoComment>();
-                    comments.Add(new TodoComment() { Comment="comment for initial task" });
+                    List<ToDoComment> comments = new List<ToDoComment>();
+                    comments.Add(new ToDoComment() { Comment="comment for initial task" });
                     await context.ToDoItems.AddAsync(new ToDo()
                     {
                         Title = "Initial Task",
