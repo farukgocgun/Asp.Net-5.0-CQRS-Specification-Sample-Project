@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ofg.cqrssample.api:
+    image: ${DOCKER_REGISTRY-}ofgcqrssampleapi
+    build:
+      context: .
+      dockerfile: src/OFG.CqrsSample.API/Dockerfile
