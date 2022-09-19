@@ -33,6 +33,12 @@
 ```
 - When you run OFG.CqrsSample.API, DB will be automatically updated.
 
+### Running on Docker
+- At the root directory which include docker-compose.yml files, run below command:
+```sh
+	docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+```
+
 ### Support
 If you are having problems, please let us know by raising a new issue.
 
